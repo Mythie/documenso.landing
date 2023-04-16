@@ -2,7 +2,7 @@ import { PackageOpen, Rocket, Unlock, Wand2 } from "lucide-react";
 
 export const Features = () => {
   return (
-    <section className="py-12 bg-slate-50 sm:py-16 lg:py-24">
+    <section className="py-12 bg-slate-50 sm:py-16 lg:py-24" id="features">
       <div className="px-4 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 gap-y-10 lg:grid-cols-2 gap-x-4">
           <div className="">

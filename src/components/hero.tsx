@@ -28,18 +28,18 @@ export const Hero = () => {
               trustworthy internet.
             </p>
 
-            <div className="mt-6 lg:mt-10 sm:flex sm:items-center space-x-6 sm:space-x-8">
+            <div className="mt-6 lg:mt-10 flex flex-wrap sm:items-center space-x-6 gap-x-6 gap-y-6 sm:gap-x-8">
               <a
-                href="#"
+                href="https://github.com/documenso/documenso"
                 className="group inline-flex items-center justify-center h-14 px-8 text-base font-semibold text-documenso-950 border-2 border-black hover:bg-black hover:text-white transition-all duration-200 focus:bg-black focus:text-white"
                 role="button"
               >
                 Star us on GitHub
                 <Star className="ml-3 text-documenso-950 duration-200 group-hover:text-yellow-300" />
               </a>
-              
+
               <a
-                href="#"
+                href="https://documenso.slack.com"
                 className="group inline-flex items-center justify-center text-base font-semibold text-documenso-950 border-b-4 border-transparent hover:border-documenso-950 transition-all duration-200 focus:border-documenso-950"
                 role="button"
               >

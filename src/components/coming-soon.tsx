@@ -1,6 +1,9 @@
 export const ComingSoon = () => {
   return (
-    <section className="py-12 bg-documenso-500 sm:py-16 lg:py-20 xl:py-24">
+    <section
+      className="py-12 bg-documenso-500 sm:py-16 lg:py-20 xl:py-24"
+      id="get-notified"
+    >
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-2xl mx-auto text-center">
           <p className="inline-block bg-documenso-100 rounded-full text-documenso-950 text-sm font-medium px-5 py-1.5">
@@ -34,42 +37,48 @@ export const ComingSoon = () => {
 
           <div className="mt-6 flex flex-col gap-y-2">
             <div className="flex items-center">
-                <input
-                    type="checkbox"
-                    name="want-to-use"
-                    id="want-to-use"
-                    className="h-5 w-5 bg-documenso-50 accent-documenso-50 text-documenso-500"
-                />
+              <input
+                type="checkbox"
+                name="want-to-use"
+                id="want-to-use"
+                className="h-5 w-5 bg-documenso-50 accent-documenso-50 text-documenso-500"
+              />
 
-                <label htmlFor="want-to-use" className="ml-4 text-documenso-950">
-                    I want to use Documenso
-                </label>
+              <label htmlFor="want-to-use" className="ml-4 text-documenso-950">
+                I want to use Documenso
+              </label>
             </div>
-            
-            <div className="flex items-center">
-                <input
-                    type="checkbox"
-                    name="want-to-contribute"
-                    id="want-to-contribute"
-                    className="h-5 w-5 bg-documenso-50 accent-documenso-50 text-documenso-500"
-                />
 
-                <label htmlFor="want-to-contribute" className="ml-4 text-documenso-950">
-                    I want to contribute to Documenso
-                </label>
+            <div className="flex items-center">
+              <input
+                type="checkbox"
+                name="want-to-contribute"
+                id="want-to-contribute"
+                className="h-5 w-5 bg-documenso-50 accent-documenso-50 text-documenso-500"
+              />
+
+              <label
+                htmlFor="want-to-contribute"
+                className="ml-4 text-documenso-950"
+              >
+                I want to contribute to Documenso
+              </label>
             </div>
-            
-            <div className="flex items-center">
-                <input
-                    type="checkbox"
-                    name="want-cloud-access"
-                    id="want-cloud-access"
-                    className="h-5 w-5 bg-documenso-50 accent-documenso-50 text-documenso-500"
-                />
 
-                <label htmlFor="want-cloud-access" className="ml-4 text-documenso-950">
-                    I want access Documenso Cloud
-                </label>
+            <div className="flex items-center">
+              <input
+                type="checkbox"
+                name="want-cloud-access"
+                id="want-cloud-access"
+                className="h-5 w-5 bg-documenso-50 accent-documenso-50 text-documenso-500"
+              />
+
+              <label
+                htmlFor="want-cloud-access"
+                className="ml-4 text-documenso-950"
+              >
+                I want access Documenso Cloud
+              </label>
             </div>
           </div>
 

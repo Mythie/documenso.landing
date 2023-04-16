@@ -2,7 +2,10 @@ import { CheckCircle, CheckCircle2, Star } from "lucide-react";
 
 export const EarlyAccess = () => {
   return (
-    <section className="relative py-12 overflow-hidden bg-white sm:py-24 lg:py-28">
+    <section
+      className="relative py-12 overflow-hidden bg-white sm:py-24 lg:py-28"
+      id="early-access"
+    >
       <div className="relative px-4 mx-auto max-w-screen-lg sm:px-6 lg:px-8">
         <div className="text-center lg:w-3/5 xl:w-3/5 lg:text-left lg:pr-8">
           <h2 className="text-3xl font-extrabold text-documenso-950 sm:text-4xl">
@@ -18,7 +21,7 @@ export const EarlyAccess = () => {
 
           <div className="mt-6 lg:mt-10 sm:flex sm:items-center sm:justify-center lg:justify-start space-x-6 sm:space-x-8">
             <a
-              href="#"
+              href="https://github.com/documenso/documenso"
               className="group inline-flex items-center justify-center h-14 px-8 text-base font-semibold bg-slate-950 hover:bg-slate-950/80 focus:bg-slate-950/80 text-white transition-all duration-200"
               role="button"
             >
@@ -26,7 +29,7 @@ export const EarlyAccess = () => {
             </a>
 
             <a
-              href="#"
+              href="https://documenso.slack.com"
               className="group inline-flex items-center justify-center text-base font-semibold text-slate-950 border-b-4 border-transparent hover:border-slate-950 transition-all duration-200 focus:border-slate-950"
               role="button"
             >
