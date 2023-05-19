@@ -11,7 +11,7 @@ export const FAQ = () => {
             us at{" "}
             <a
               href="mailto:hi@documenso.com"
-              className="text-documenso-500 hover:underline"
+              className="text-documenso-500 font-semibold hover:underline"
             >
               hi@documenso.com
             </a>
@@ -28,7 +28,7 @@ export const FAQ = () => {
             <p className="mt-3 text-base font-normal text-gray-600 sm:mt-6 ">
               Documenso is a community effort to create an open and vibrant
               ecosystem around a tool, everybody is free to use and adapt. By
-              beeing truly open we want to create trusted infrastructure for the
+              being truly open we want to create trusted infrastructure for the
               future of the internet.
             </p>
           </div>
@@ -39,7 +39,7 @@ export const FAQ = () => {
             </p>
 
             <p className="mt-3 text-base font-normal text-gray-600 sm:mt-6 ">
-              Documenso will be addiontionally offered as a subscription based
+              Documenso will be additionally offered as a subscription based
               service you can just sign up for after launch at Documenso.com.
             </p>
           </div>
@@ -53,7 +53,7 @@ export const FAQ = () => {
               posted. You can also follow us on Twitter at{" "}
               <a
                 href="https://twitter.com/documenso"
-                className="text-documenso-500 hover:underline"
+                className="text-documenso-500 font-semibold hover:underline"
               >
                 @Documenso
               </a>{" "}
@@ -88,7 +88,7 @@ export const FAQ = () => {
               Who can contribute?
             </p>
             <p className="mt-3 text-base font-normal text-gray-600 sm:mt-6 ">
-              Since we are still in th early phases we need all kinds of people
+              Since we are still in the early phases we need all kinds of people
               from user to tester and developers. If you want to be a part of
               our journey let us know, help is always appreciated.
             </p>
